@@ -60,7 +60,7 @@ Once that's confirmed, we jump back log back into the DC-1 machine. The next ste
 
 
 <p>
-We can name the new OU _EMPLOYEES and we can create another one called _ADMINS. Then we'll create an admin user. Right click on _ADMINS -> New -> User. We'll name this admin user Jane Doe, with as username of jane_admin. Set whatever password that you wish. 
+We can name the new OU _EMPLOYEES and we can create another one called _ADMINS. Then we'll create an admin user. Right click on _ADMINS -> New -> User. 
 
 Although Jane Doe is in a OU called _ADMINS, she technically is not yet a Domain admin since we have not given those privileges to her. So to do this, we click on _ADMINS and see that Jane Doe is there. Right click on Jane Doe -> Properties -> Member Of then type in Domain Admins in the box. Click on Check names, then OK and apply these settings.
 </p>
